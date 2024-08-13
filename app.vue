@@ -1,6 +1,10 @@
+<script setup>
+import HeaderLayout from './layouts/HeaderLayout/Header.vue'
+</script>
 <template>
   <div>
-    <NuxtRouteAnnouncer />
-    <NuxtWelcome />
+    <HeaderLayout/>
+      <NuxtPage />
+    <NuxtLayout/>
   </div>
 </template>
