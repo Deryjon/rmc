@@ -60,7 +60,6 @@ const data = [
                     <div class="bottom w-[467px] h-[290px] flex justify-between flex-col p-[20px]">
                         <div class=" flex justify-between text-[20px]">
                             <p class="date">{{ data[2].date }}</p>
-                            <p class="date">30.07.2024</p>
                             <p class="views flex items-center gap-[7px]">
                                 <Icon name="ph:eye" size="24" />
                                 {{ data[2].views }}
