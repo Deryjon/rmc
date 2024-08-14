@@ -15,6 +15,5 @@ const openDropdown = ref(false)
        <li class="cursor-pointer">
            <NuxtLink to="/contacts">Контакты</NuxtLink>
        </li> 
-
     </ul>
 </template>

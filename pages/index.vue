@@ -1,10 +1,10 @@
 <script setup>
-
+import PopularSection from './sections/PopularSection.vue'
 </script>
 
 <template>
 
-    <div class="text-red-500">
-        hello world
-    </div>
+    <main>
+        <PopularSection/>
+    </main>
 </template>
