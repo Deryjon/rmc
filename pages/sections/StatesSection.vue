@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import Card from './components/Card.vue'
+import Pagination from './components/Pagination.vue'
 import {
     Menubar,
     MenubarCheckboxItem,
@@ -44,7 +46,7 @@ const data = [
             <TitleUi>Статьи</TitleUi>
 
             <Tabs default-value="all" class="w-[400px] mt-[40px]">
-                <TabsList>
+                <TabsList class="">
                     <TabsTrigger value="all">
                         Все
                     </TabsTrigger>
@@ -60,7 +62,7 @@ const data = [
                     <TabsTrigger value="district">
                         Обзоры районов
                     </TabsTrigger>
-                    <Menubar>
+                    <Menubar class="ml-auto">
                         <MenubarMenu>
                             <MenubarTrigger class="flex items-center gap-[10px]">Сортировать
                                 <Icon name="fluent:arrow-sort-16-filled" size="22" />
@@ -141,8 +143,71 @@ const data = [
                                 </p>
                             </div>
                         </div>
-
                     </div>
+                    <Card />
+                    <div class="flex gap-[30px] mt-[30px]">
+                        <div class="card">
+                            <div class="top text-[20px] relative w-[430px] h-[290px]">
+                                <img src="../../assets/images/home-4.jpg" alt="" class="w-full h-full">
+                                <div class="flex justify-between absolute w-full text-white bottom-[-5px] p-[20px]">
+                                    <p>{{ data[0].date }}</p>
+                                    <p class="flex items-center gap-[2.5px]">
+                                        <Icon name="ph:eye" size="24" />
+                                        {{ data[0].views }}
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="texts mt-[20px]">
+                                <p class="text-[24px]">{{ data[0].title }}</p>
+                                <p class="text-[18px] mt-[20px] text-[#E1AF93] flex gap-[4px] items-center">
+                                    Подробнее
+                                    <Icon name="mingcute:arrow-right-fill" size="20" color="#E1AF93" />
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="top text-[20px] relative w-[430px] h-[290px]">
+                                <img src="../../assets/images/home-5.jpg" alt="" class="w-full h-full">
+
+                                <div class="flex justify-between absolute w-full text-white bottom-[-5px] p-[20px]">
+                                    <p>{{ data[1].date }}</p>
+                                    <p class="flex items-center gap-[2.5px]">
+                                        <Icon name="ph:eye" size="24" />
+                                        {{ data[1].views }}
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="texts mt-[20px]">
+                                <p class="text-[24px]">{{ data[1].title }}</p>
+                                <p class="text-[18px] mt-[20px] text-[#E1AF93] flex gap-[4px] items-center">
+                                    Подробнее
+                                    <Icon name="mingcute:arrow-right-fill" size="20" color="#E1AF93" />
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="top text-[20px] relative w-[430px] h-[290px]">
+                                <img src="../../assets/images/home-6.jpg" alt="" class="w-full h-full">
+
+                                <div class="flex justify-between absolute w-full text-white bottom-[-5px] p-[20px]">
+                                    <p>{{ data[2].date }}</p>
+                                    <p class="flex items-center gap-[2.5px]">
+                                        <Icon name="ph:eye" size="24" />
+                                        {{ data[2].views }}
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="texts mt-[20px]">
+                                <p class="text-[24px]">{{ data[2].title }}</p>
+                                <p class="text-[18px] mt-[20px] text-[#E1AF93] flex gap-[4px] items-center">
+                                    Подробнее
+                                    <Icon name="mingcute:arrow-right-fill" size="20" color="#E1AF93" />
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <Card />
+
                 </TabsContent>
 
                 <!-- Остальные вкладки -->
@@ -159,7 +224,7 @@ const data = [
                     Change your password here.
                 </TabsContent>
             </Tabs>
-
+<Pagination class="my-[100px]"/>
         </div>
     </section>
 </template>

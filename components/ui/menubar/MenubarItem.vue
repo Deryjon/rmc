@@ -25,7 +25,7 @@ const forwarded = useForwardPropsEmits(delegatedProps, emits)
   <MenubarItem
     v-bind="forwarded"
     :class="cn(
-      'relative flex cursor-default select-none items-center rounded-sm p-[12px] text-sm outline-none focus:bg-[#FCF7F4] focus:text-[#E1AF93] data-[disabled]:pointer-events-none data-[disabled]:opacity-50',
+      'relative flex cursor-default select-none items-center rounded-sm p-[12px] text-sm outline-none border-b focus:bg-[#FCF7F4] focus:text-[#E1AF93] data-[disabled]:pointer-events-none data-[disabled]:opacity-50',
       inset && 'pl-8',
       props.class,
     )"
