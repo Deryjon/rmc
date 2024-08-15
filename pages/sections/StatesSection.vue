@@ -97,7 +97,7 @@ const data = [
                             </div>
                             <div class="texts mt-[20px]">
                                 <p class="text-[24px]">{{ data[0].title }}</p>
-                                <p class="text-[18px] mt-[20px] text-[#E1AF93] flex gap-[4px] items-center">
+                                <p class="text-[18px] mt-[20px] text-[#E1AF93] flex gap-[4px] items-center cursor-pointer">
                                     Подробнее
                                     <Icon name="mingcute:arrow-right-fill" size="20" color="#E1AF93" />
                                 </p>
@@ -117,7 +117,7 @@ const data = [
                             </div>
                             <div class="texts mt-[20px]">
                                 <p class="text-[24px]">{{ data[1].title }}</p>
-                                <p class="text-[18px] mt-[20px] text-[#E1AF93] flex gap-[4px] items-center">
+                                <p class="text-[18px] mt-[20px] text-[#E1AF93] flex gap-[4px] items-center cursor-pointer">
                                     Подробнее
                                     <Icon name="mingcute:arrow-right-fill" size="20" color="#E1AF93" />
                                 </p>
@@ -137,7 +137,7 @@ const data = [
                             </div>
                             <div class="texts mt-[20px]">
                                 <p class="text-[24px]">{{ data[2].title }}</p>
-                                <p class="text-[18px] mt-[20px] text-[#E1AF93] flex gap-[4px] items-center">
+                                <p class="text-[18px] mt-[20px] text-[#E1AF93] flex gap-[4px] items-center cursor-pointer">
                                     Подробнее
                                     <Icon name="mingcute:arrow-right-fill" size="20" color="#E1AF93" />
                                 </p>
@@ -159,7 +159,7 @@ const data = [
                             </div>
                             <div class="texts mt-[20px]">
                                 <p class="text-[24px]">{{ data[0].title }}</p>
-                                <p class="text-[18px] mt-[20px] text-[#E1AF93] flex gap-[4px] items-center">
+                                <p class="text-[18px] mt-[20px] text-[#E1AF93] flex gap-[4px] items-center cursor-pointer">
                                     Подробнее
                                     <Icon name="mingcute:arrow-right-fill" size="20" color="#E1AF93" />
                                 </p>
@@ -179,7 +179,7 @@ const data = [
                             </div>
                             <div class="texts mt-[20px]">
                                 <p class="text-[24px]">{{ data[1].title }}</p>
-                                <p class="text-[18px] mt-[20px] text-[#E1AF93] flex gap-[4px] items-center">
+                                <p class="text-[18px] mt-[20px] text-[#E1AF93] flex gap-[4px] items-center cursor-pointer">
                                     Подробнее
                                     <Icon name="mingcute:arrow-right-fill" size="20" color="#E1AF93" />
                                 </p>
@@ -199,7 +199,7 @@ const data = [
                             </div>
                             <div class="texts mt-[20px]">
                                 <p class="text-[24px]">{{ data[2].title }}</p>
-                                <p class="text-[18px] mt-[20px] text-[#E1AF93] flex gap-[4px] items-center">
+                                <p class="text-[18px] mt-[20px] text-[#E1AF93] flex gap-[4px] items-center cursor-pointer">
                                     Подробнее
                                     <Icon name="mingcute:arrow-right-fill" size="20" color="#E1AF93" />
                                 </p>
