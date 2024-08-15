@@ -40,7 +40,7 @@ const data = [
                                 <p class="text-[24px]">Преимущества покупки жилья
                                     <br/>
                                     на этапе строительства</p>
-                                <p class="text-[18px] mt-[20px] text-[#E1AF93] flex gap-[4px] items-center">
+                                <p class="text-[18px] mt-[20px] text-[#E1AF93] flex gap-[4px] items-center cursor-pointer">
                                     Подробнее
                                     <Icon name="mingcute:arrow-right-fill" size="20" color="#E1AF93" />
                                 </p>
@@ -62,7 +62,7 @@ const data = [
                                 <p class="text-[24px]">Современные технологии в строительстве:
                                     <br/>   
                                     что ожидать от новостроек</p>
-                                <p class="text-[18px] mt-[20px] text-[#E1AF93] flex gap-[4px] items-center">
+                                <p class="text-[18px] mt-[20px] text-[#E1AF93] flex gap-[4px] items-center cursor-pointer">
                                     Подробнее
                                     <Icon name="mingcute:arrow-right-fill" size="20" color="#E1AF93" />
                                 </p>
