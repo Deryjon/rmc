@@ -23,7 +23,7 @@ const data = [
         <div class="container">
             <TitleUi>Популярные статьи</TitleUi>
             <div class="cards mt-[30px] flex justify-between text-[#FFFFFF]">
-                <div class="left w-[890px] h-[600px]  p-[30px] flex flex-col justify-between">
+                <div class="left w-[855px] h-[600px]  p-[30px] flex flex-col justify-between">
                     <div class="top flex justify-between text-[20px]">
                         <p class="date">{{ data[0].date }}</p>
                         <p class="views flex items-center gap-[7px]">
