@@ -62,7 +62,7 @@ const data = [
                     <TabsTrigger value="district">
                         Обзоры районов
                     </TabsTrigger>
-                    <Menubar class="ml-auto">
+                    <Menubar class="ml-[330px]">
                         <MenubarMenu>
                             <MenubarTrigger class="flex items-center gap-[10px]">Сортировать
                                 <Icon name="fluent:arrow-sort-16-filled" size="22" />
